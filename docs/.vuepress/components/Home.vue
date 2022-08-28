@@ -4,7 +4,6 @@
       <h1>오늘 배운 건
         <br>오늘 적자
       </h1>
-
       <div class="infoContainer">
         <div class="name">Tae kyu TIL</div>
         <ul>
