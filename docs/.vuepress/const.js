@@ -3,4 +3,5 @@ exports.JavaScriptList = [
 ];
 exports.VuejsList = [
     "Vue/startvue.md",
+    "Vue/twovue.md",
 ]
