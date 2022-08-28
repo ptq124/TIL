@@ -3,7 +3,6 @@ module.exports = {
     title: 'Today TaeKyu Learned', 
     description: 'vuepress로 만든 문서입니다.',
     base: "/TIL/",
-    dest: 'build',
     head: [
         ['link', {
             rel: 'icon',
