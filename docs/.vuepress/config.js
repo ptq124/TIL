@@ -1,7 +1,7 @@
 var CONST = require("./const");
 module.exports = {
     title: 'Today TaeKyu Learned', 
-    description: 'vuepress로 만든 문서입니다.',
+    description: `TaeKyu's Personal Wiki (Today I Learned)`,
     base: "/TIL/",
     head: [
         ['link', {
