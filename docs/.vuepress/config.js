@@ -19,6 +19,10 @@ module.exports = {
                 title: 'Vue js',
                 children: CONST.VuejsList
             },
+            {
+                title: 'VuePress',
+                children: CONST.VuePressList
+            },
         ],
         nav: [
             { text: 'Github', link: 'https://github.com/ptq124' }
