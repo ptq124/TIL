@@ -1,5 +1,6 @@
 exports.JavaScriptList = [
     "JavaScript/builtin-object.md",
+    "JavaScript/string.md",
 ];
 exports.VuejsList = [
     "Vue/startvue.md",
