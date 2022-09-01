@@ -3,8 +3,7 @@ exports.JavaScriptList = [
     "JavaScript/string.md",
 ];
 exports.VuejsList = [
-    "Vue/startvue.md",
-    "Vue/twovue.md",
+    "Vue/hellovue.md",
 ]
 exports.VuePressList = [
     "vuepress/vuepress-start.md",
