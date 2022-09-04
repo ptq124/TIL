@@ -1,6 +1,7 @@
 exports.JavaScriptList = [
     "JavaScript/builtin-object.md",
     "JavaScript/string.md",
+    "JavaScript/array.md",
 ];
 exports.VuejsList = [
     "Vue/hellovue.md",
