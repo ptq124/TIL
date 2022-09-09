@@ -27,7 +27,7 @@ module.exports = {
         children: CONST.VuePressList,
       },
       {
-        title: "ETC",
+        title: "Etc",
         children: CONST.etc,
       },
     ],
