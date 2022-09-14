@@ -5,6 +5,7 @@ exports.JavaScriptList = [
     "JavaScript/array-method.md",
     "JavaScript/hof.md",
     "JavaScript/iterable.md",
+    "JavaScript/generator.md",
 ];
 exports.VuejsList = ["Vue/hellovue.md"];
 exports.VuePressList = [
