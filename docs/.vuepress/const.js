@@ -7,6 +7,7 @@ exports.JavaScriptList = [
     "JavaScript/iterable.md",
     "JavaScript/generator.md",
     "JavaScript/spread.md",
+    "JavaScript/destructing_assignment.md",
 ];
 exports.VuejsList = ["Vue/hellovue.md"];
 exports.VuePressList = [
