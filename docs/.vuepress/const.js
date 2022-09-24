@@ -12,7 +12,10 @@ exports.JavaScriptList = [
     "JavaScript/logical-op.md",
     "JavaScript/nullish.md",
 ];
-exports.VuejsList = ["Vue/hellovue.md"];
+exports.VuejsList = [
+  "Vue/hellovue.md",
+  "Vue/vue-sheetjs.md"
+];
 exports.VuePressList = [
   "vuepress/vuepress-start.md",
   "vuepress/vuepress-deploy.md",
