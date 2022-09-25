@@ -16,6 +16,10 @@ exports.VuejsList = [
   "Vue/hellovue.md",
   "Vue/vue-sheetjs.md"
 ];
+exports.FastApiList = [
+  "fastapi/crawl.md",
+  "fastapi/db.md"
+];
 exports.VuePressList = [
   "vuepress/vuepress-start.md",
   "vuepress/vuepress-deploy.md",

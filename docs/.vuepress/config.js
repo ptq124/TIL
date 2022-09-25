@@ -23,6 +23,10 @@ module.exports = {
         children: CONST.VuejsList,
       },
       {
+        title: "Fast API",
+        children: CONST.FastApiList,
+      },
+      {
         title: "VuePress",
         children: CONST.VuePressList,
       },
