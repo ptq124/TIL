@@ -1,4 +1,4 @@
-var CONST = require("./const");
+var CONST = require("./const")
 module.exports = {
   title: "Today TaeKyu Learned",
   description: `TaeKyu's Personal Wiki (Today I Learned)`,
@@ -37,4 +37,4 @@ module.exports = {
     ],
     nav: [{ text: "Github", link: "https://github.com/ptq124" }],
   },
-};
+}
