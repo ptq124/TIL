@@ -16,6 +16,8 @@ exports.JavaScriptList = [
   "JavaScript/hoisting.md",
   "JavaScript/js-runtime.md",
   "JavaScript/var.md",
+  "JavaScript/property.md",
+  "JavaScript/prototype.md",
 ]
 exports.VuejsList = ["Vue/hellovue.md", "Vue/vue-sheetjs.md"]
 exports.FastApiList = ["fastapi/crawl.md", "fastapi/db.md"]
