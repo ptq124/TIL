@@ -23,10 +23,6 @@ module.exports = {
         children: CONST.VuejsList,
       },
       {
-        title: "FrontEnd",
-        children: CONST.FrontendList,
-      },
-      {
         title: "Fast API",
         children: CONST.FastApiList,
       },
@@ -37,6 +33,10 @@ module.exports = {
       {
         title: "Etc",
         children: CONST.etc,
+      },
+      {
+        title: "Frontend",
+        children: CONST.frontend,
       },
     ],
     nav: [{ text: "Github", link: "https://github.com/ptq124" }],

@@ -30,4 +30,4 @@ exports.VuePressList = [
   "vuepress/vuepress-deploy.md",
 ]
 exports.etc = ["etc/okr.md"]
-exports.FrontendList = ["frontend/bem.md"]
+exports.frontend = ["frontend/bem.md"]
