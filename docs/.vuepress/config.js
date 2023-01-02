@@ -34,10 +34,6 @@ module.exports = {
         title: "Etc",
         children: CONST.etc,
       },
-      {
-        title: "Frontend",
-        children: CONST.frontendList,
-      },
     ],
     nav: [{ text: "Github", link: "https://github.com/ptq124" }],
   },
