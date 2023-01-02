@@ -8,7 +8,7 @@
 - 언더스코어는 파일, 폴더, 이미지 등에만 사용한다(image_elysia_asset_01.png)
 - 숫자를 사용할 때는 확장성을 고려해 1, 2 이런 식으로 표현하지 않고 01, 02, 03… 혹은 001, 002, 003처럼 사용함. 앞에 0을 붙이지 않으면, 이미지 정렬 시 1 다음에 2가 오지 않고 10이 오는 등, 정렬 순서가 엉망이 될 수 있기 때문임
 
-## **BLOCK**
+## BLOCK
 
  Block은 문단 전체에 적용되는 요소, 혹은 그 요소를 담고 있는 큰 덩어리
 
@@ -17,13 +17,13 @@
 - Block을 재사용하거나 위치를 변경하는 등 Block의 독립성을 보장한다.
 - Block은 서로 중첩해서 사용할 수 있으며, 여러 번 중첩해서 사용할 수 있다.
 
-## **Element**
+## Element
 
 Block이 포함하고 있는, Block에서 별도로 사용할 수 없는 한 Block을 이루고 있는 부분임
 
 Block이 전체라면, Element들은 조각을 일컫습니다. 해당 Element는 두 개의 underscore로 표시한다.
 
-## **Modifier**
+## Modifier
 
 Block 혹은 Element의 형태. 즉, 모양(color, size … ) 이나 상태 (focusing, disable,) 행동 (showing, enable) 등을 정의하며, 하이픈 두 개로 표현한다. ( — )
 
