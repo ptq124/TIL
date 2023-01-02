@@ -23,7 +23,7 @@ module.exports = {
         children: CONST.VuejsList,
       },
       {
-        title: "Front-end",
+        title: "FrontEnd",
         children: CONST.FrontendList,
       },
       {
