@@ -24,6 +24,8 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-node-
 
+    - run: npm install -D vuepress
+    
     - run: npm run build
 
     - name: Deploy
