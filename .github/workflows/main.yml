@@ -1,16 +1,44 @@
-name: Build and Deploy
-on: [push]
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@main
+# name: Build and Deploy
+# on: [push]
+# jobs:
+#   build-and-deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@main
 
-      - name: Vuepress deploy
-        uses: jenkey2011/vuepress-deploy@1.0.1
-        env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BUILD_SCRIPT: yarn && yarn docs:build
-          TARGET_BRANCH: gh-pages
-          BUILD_DIR: docs/.vuepress/dist
+#       - name: Vuepress deploy
+#         uses: jenkey2011/vuepress-deploy@1.0.1
+#         env:
+#           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+#           BUILD_SCRIPT: yarn && yarn docs:build
+#           TARGET_BRANCH: gh-pages
+#           BUILD_DIR: docs/.vuepress/dist
+name: github pages
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Setup Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
+
+    - run: npm install -D vuepress
+
+    - run: npm run docs:build
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2
+      env:
+        ACTIONS_DEPLOY_KEY: ${{ secrets.ACCESS_TOKEN }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: ./docs/.vuepress/dist
