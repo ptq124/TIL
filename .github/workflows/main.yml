@@ -6,14 +6,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@main
-      - name: Configure git to trust the workspace despite the different owner
-        run:
-          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
       - name: Vuepress deploy
         uses: jenkey2011/vuepress-deploy@master
         env:
-          ACCESS_TOKEN: ${{ secrets.TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          TARGET_REPO: ptq124/TIL
           TARGET_BRANCH: gh-pages
           BUILD_SCRIPT: yarn && yarn build
-          BUILD_DIR: docs/.vuepress/dist
+          BUILD_DIR: docs/.vuepress/dist/
 
