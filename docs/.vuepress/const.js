@@ -30,4 +30,4 @@ exports.VuePressList = [
   "vuepress/vuepress-start.md",
   "vuepress/vuepress-deploy.md",
 ]
-exports.etc = ["etc/okr.md","etc/coupling_cohesion.md"]
+exports.etc = ["etc/okr.md","etc/coupling_cohesion.md","etc/npm.md"]
