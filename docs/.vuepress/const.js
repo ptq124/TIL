@@ -25,9 +25,9 @@ exports.JavaScriptList = [
 ]
 exports.VuejsList = ["Vue/hellovue.md", "Vue/vue-sheetjs.md"]
 exports.FastApiList = ["fastapi/crawl.md", "fastapi/db.md"]
-exports.FrontEndList = ['frontend/bem.md']
+exports.FrontEndList = ['frontend/bem.md', "frontend/npm.md"]
 exports.VuePressList = [
   "vuepress/vuepress-start.md",
   "vuepress/vuepress-deploy.md",
 ]
-exports.etc = ["etc/okr.md","etc/coupling_cohesion.md","etc/npm.md"]
+exports.etc = ["etc/okr.md","etc/coupling_cohesion.md"]
