@@ -1,4 +1,4 @@
-exports.Hello = []
+exports.Hello = ['Hello/hello.md']
 exports.JavaScriptList = [
   'JavaScript/builtin-object.md',
   'JavaScript/string.md',
