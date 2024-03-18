@@ -23,6 +23,9 @@ jobs:
 
       - run: npm run build
 
+      # - run: |
+      #     git push --force https://ptq124:${{ secrets.ACCESS_TOKEN }}@github.com/ptq124/TIL.git master:gh-pages
+
       - name: Vuepress deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
