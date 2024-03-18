@@ -1,44 +1,48 @@
-var CONST = require("./const")
+var CONST = require('./const')
 module.exports = {
-  title: "Today TaeKyu Learned",
+  title: 'Today TaeKyu Learned',
   description: `TaeKyu's Personal Wiki (Today I Learned)`,
-  base: "/TIL/",
+  base: '/TIL/',
   head: [
     [
-      "link",
+      'link',
       {
-        rel: "icon",
-        href: "/logo.png",
+        rel: 'icon',
+        href: '/logo.png',
       },
     ],
   ],
   themeConfig: {
     sidebar: [
       {
-        title: "JavaScript",
+        title: 'Hello',
+        children: CONST.Hello,
+      },
+      {
+        title: 'JavaScript',
         children: CONST.JavaScriptList,
       },
       {
-        title: "Vue js",
+        title: 'Vue js',
         children: CONST.VuejsList,
       },
       {
-        title: "Fast API",
+        title: 'Fast API',
         children: CONST.FastApiList,
       },
       {
-        title: "Front End",
+        title: 'Front End',
         children: CONST.FrontEndList,
       },
       {
-        title: "VuePress",
+        title: 'VuePress',
         children: CONST.VuePressList,
       },
       {
-        title: "Etc",
+        title: 'Etc',
         children: CONST.etc,
       },
     ],
-    nav: [{ text: "Github", link: "https://github.com/ptq124" }],
+    nav: [{ text: 'Github', link: 'https://github.com/ptq124' }],
   },
 }
