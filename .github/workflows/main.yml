@@ -13,9 +13,9 @@ jobs:
           node-version: '12.x'
 
       - name: Vuepress deploy
-        uses: jenkey2011/vuepress-deploy@1.0.1
+        uses: jenkey2011/vuepress-deploy@master
         env:
-          ACCESS_TOKEN: ${{ secrets.GH_ACTIONS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BUILD_SCRIPT: yarn && yarn docs:build
           TARGET_BRANCH: gh-pages
           BUILD_DIR: docs/.vuepress/dist
