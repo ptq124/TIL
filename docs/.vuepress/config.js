@@ -35,6 +35,10 @@ module.exports = {
         children: CONST.FrontEndList,
       },
       {
+        title: 'Alogorithm',
+        children: CONST.Alogorithm,
+      },
+      {
         title: 'VuePress',
         children: CONST.VuePressList,
       },

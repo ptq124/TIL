@@ -27,6 +27,7 @@ exports.JavaScriptList = [
 exports.VuejsList = ['Vue/hellovue.md', 'Vue/vue-sheetjs.md']
 exports.FastApiList = ['fastapi/crawl.md', 'fastapi/db.md']
 exports.FrontEndList = ['frontend/bem.md', 'frontend/npm.md']
+exports.Alogorithm = ['Alogorithm/binary_search.md']
 exports.VuePressList = [
   'vuepress/vuepress-start.md',
   'vuepress/vuepress-deploy.md',
