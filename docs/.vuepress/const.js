@@ -32,6 +32,7 @@ exports.FrontEndList = [
   'frontend/webSearch.md',
   'frontend/restApi.md',
   'frontend/browserRender.md',
+  'frontend/property-attribute.md',
 ]
 exports.Alogorithm = ['Alogorithm/binary_search.md']
 exports.VuePressList = [
