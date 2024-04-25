@@ -34,6 +34,7 @@ exports.FrontEndList = [
   'frontend/browserRender.md',
   'frontend/property-attribute.md',
   'frontend/axios_fetch_ajax.md',
+  'frontend/csr_ssr.md',
 ]
 exports.Alogorithm = ['Alogorithm/binary_search.md']
 exports.VuePressList = [
